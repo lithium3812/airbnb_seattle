@@ -27,58 +27,41 @@ I measured the performance of the models with 3 metrics.
 MAE: Mean Absolute Error, MAPE: Mean Absolute Percentage Error, R2: R-squared value
 
 ### Random forest
-
---------------------------
-on training data:
--------------------------
+#### on training data:
 MAE:  1.64
 MAPE:  0.017
 R2:  0.996
---------------------------
-on test data:
--------------------------
+#### on test data:
 MAE:  2.63
 MAPE:  0.044
 R2:  0.976
 
 ### XGBoost
---------------------------
-on training data:
--------------------------
+#### on training data:
 MAE:  2.28
 MAPE:  0.032
 R2:  0.990
---------------------------
-on test data:
--------------------------
+#### on test data:
 MAE:  2.90
 MAPE:  0.054
 R2:  0.973
 
 ### Multilayer Perceptron
---------------------------
-on training data:
--------------------------
+#### on training data:
 MAE:  1.73
 MAPE:  0.017
 R2:  0.991
---------------------------
-on test data:
--------------------------
+#### on test data:
 MAE:  2.71
 MAPE:  0.046
 R2:  0.971
 
 ### Blending
---------------------------
-on training data:
--------------------------
+#### on training data:
 MAE:  1.97
 MAPE:  0.023
 R2:  0.991
---------------------------
-on test data:
--------------------------
+#### on test data:
 MAE:  2.72
 MAPE:  0.047
 R2:  0.974
