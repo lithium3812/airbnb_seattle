@@ -1,6 +1,8 @@
 # Airbnb Seattle Price prediction
 Price prediction of Airbnb listings in Seattle.
 
+My analysis is demonstrated in the jupyter notebook airbnb_seattle.ipynb. 
+
 ## dataset
 The dataset can be found at [Inside Airbnb](http://insideairbnb.com/get-the-data.html).
 There are 3 files of listings data in this repository.
@@ -10,6 +12,8 @@ listings.csv: main file with various features of listings at the time of scrapin
 calendar.csv: price and availability data of the coming entire year. 
 
 reviews.csv: the detailed review data. 
+
+seattle_preprocessed.csv: This is NOT from Inside Airbnb. This is a file I created to save the dataset after preprocessing.
 
 In this project, I combined calendar data to the listings data and analyzed the seasonal pattern of prices. I did not use reviews.csv for this project.
 It is most of the time clear from column names what they indicate.
